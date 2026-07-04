@@ -1,4 +1,4 @@
-# Hayat (حياة) — Intelligent Blood Donation Platform
+# Hayat (حياة) - Intelligent Blood Donation Platform
 
 <div align="center">
   
