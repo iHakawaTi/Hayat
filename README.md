@@ -77,6 +77,16 @@ graph TD
 * **Request Fulfillment Regression**: Estimates blood request fulfillment duration to manage patient expectations.
 * **Synthetic Data Scaling**: A data simulation pipeline mapping realistic demographics, cities, and MoH structures in Jordan (30,000+ synthetic profiles).
 
+### 📊 Synthetic Data Generation Pipeline (`/hayat/blood_donation_ml/notebooks/Synthetic_Data_Generation.ipynb`)
+Due to the strict privacy constraints surrounding patient healthcare records and PII (Personally Identifiable Information), the ML models are trained on high-fidelity synthetic datasets. The generation pipeline leverages the following sophisticated modeling methods to simulate Jordan's blood donation ecosystem:
+* **Biological Constraints Modeling**: Utilizes truncated normal distributions to enforce strict physiological limits on medical features (e.g. Age, Weight, Hemoglobin levels, Blood Pressure, Pulse Rate) matching standard whole blood donation eligibility criteria (e.g., minimum weight 50kg, diastolic always less than systolic, normal pulse range).
+* **Jordan-Specific Demographics**: 
+  - Gender ratios are skewed dynamically matching published Jordanian survey statistics (where males make up >90% of active donors).
+  - Blood groups are generated using weighted probability tables matching Jordan's national blood type distribution (e.g., O+ 33.3%, A+ 33.1%, AB- 0.04%).
+* **Geographical Mapping**: Cities (Amman, Zarqa, Irbid, Aqaba, Madaba, Jerash) are mapped to their official latitude/longitude centers, with coordinate offsets generated within realistic circular dispersion radii to simulate donor location dispersion.
+* **Temporal & Behavioral Features**: Generates historic donation records using Poisson distributions, ensuring a mandatory 56-day (8 weeks) gap between donations, and models show-rates using beta distributions to evaluate donor reliability.
+* **Locale-Aware Faker Synthesis**: Employs the `faker` library in Arabic (`ar`) to generate culturally accurate names, email hashes, and mobile patterns prefix-validated for Jordan (`077`, `078`, `079`).
+
 ---
 
 ## 🚀 Getting Started
