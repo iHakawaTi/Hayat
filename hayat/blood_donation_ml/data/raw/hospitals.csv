@@ -1,0 +1,22 @@
+hospital_id,name,city,type,latitude,longitude,bed_capacity,icu_beds,has_blood_bank,daily_blood_units_capacity,emergency_level,is_real
+HOS001,Jordan University Hospital,Amman,University,32.002183,35.912942,203,52,True,26,Level 3,True
+HOS002,King Hussein Medical Center,Amman,Military,31.967606,36.013537,557,36,True,51,Level 2,True
+HOS003,Al-Bashir Hospital,Amman,Government,31.973421,35.894704,387,44,True,30,Level 2,True
+HOS004,Prince Hamzah Hospital,Amman,Government,31.949607,35.931465,451,27,True,57,Level 1,True
+HOS005,Queen Alia Military Hospital,Amman,Military,32.017853,35.944016,391,24,True,70,Level 3,True
+HOS006,Al-Zarqa Government Hospital,Zarqa,Government,32.04923,36.096599,424,22,True,48,Level 2,True
+HOS007,Irbid Government Hospital,Irbid,Government,32.593607,35.856118,411,33,True,38,Level 1,True
+HOS008,Aqaba Government Hospital,Aqaba,Government,29.519146,35.007731,362,29,True,65,Level 1,True
+HOS009,Madaba Hospital,Madaba,Government,31.716227,35.786222,605,37,True,42,Level 2,True
+HOS010,Jerash Government Hospital,Jerash,Government,32.283681,35.898038,575,30,True,34,Level 1,True
+HOS011,Al-Noor Medical Center,Amman,University,31.902629,35.949133,318,9,True,31,Level 1,False
+HOS012,Al-Shifa Hospital,Amman,University,31.959416,35.897811,205,17,True,36,Level 2,False
+HOS013,Jordan Medical Complex,Other,Government,31.071135,35.780619,230,17,True,33,Level 3,False
+HOS014,Al-Amal Hospital,Other,Government,30.79509,35.896498,99,12,True,10,Level 3,False
+HOS015,Al-Hayat Medical Center,Amman,Government,31.998299,35.962618,198,7,True,16,Level 2,False
+HOS016,Al-Rahma Hospital,Amman,Private,31.984557,35.924986,169,8,True,23,Level 3,False
+HOS017,Al-Wafa Medical Center,Irbid,Government,32.58012,35.880034,254,14,True,23,Level 1,False
+HOS018,Jordan National Hospital,Irbid,Government,32.537477,35.876042,301,21,True,18,Level 3,False
+HOS019,Al-Salam Hospital,Amman,Military,31.93936,35.941192,158,11,True,14,Level 1,False
+HOS020,Al-Hilal Medical Center,Irbid,Private,32.543984,35.819207,200,19,True,21,Level 2,False
+HOS021,Al-Jazeera Hospital,Amman,University,31.921557,35.939909,180,9,False,32,Level 3,False

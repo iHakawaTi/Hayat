@@ -1,0 +1,16 @@
+bank_id,name,city,latitude,longitude,storage_capacity_units,operating_hours,is_real,last_updated,stock_Opos,stock_Apos,stock_Bpos,stock_ABpos,stock_Oneg,stock_Aneg,stock_Bneg,stock_ABneg
+BB001,National Blood Bank - Amman,Amman,31.954078,35.92458,1837,24/7,True,2026-05-03 00:47:46,47,110,17,34,32,6,33,9
+BB002,King Hussein Blood Bank,Amman,31.960483,35.941412,1961,24/7,True,2026-05-03 00:47:46,62,48,7,20,18,33,38,22
+BB003,Zarqa Blood Bank,Zarqa,32.094805,36.093206,1463,08:00-20:00,True,2026-05-03 00:47:46,102,91,5,11,2,19,7,25
+BB004,Irbid Blood Bank,Irbid,32.57364,35.857493,2333,08:00-20:00,True,2026-05-03 00:47:46,24,50,31,11,10,9,34,3
+BB005,Aqaba Blood Bank,Aqaba,29.528709,35.016251,1414,08:00-20:00,True,2026-05-03 00:47:46,106,109,13,28,1,33,32,19
+BB006,Al-Bashir Blood Center,Amman,31.960951,35.92073,844,24/7,False,2026-05-03 00:47:46,64,88,32,22,10,14,13,0
+BB007,Jordan University Blood Bank,Zarqa,32.077572,36.095965,971,08:00-16:00,False,2026-05-03 00:47:46,2,45,5,39,24,16,27,31
+BB008,South Jordan Blood Bank,Irbid,32.55619,35.857043,590,08:00-16:00,False,2026-05-03 00:47:46,16,101,13,17,20,38,38,27
+BB009,North Jordan Blood Center,Other,30.974753,35.956189,552,08:00-20:00,False,2026-05-03 00:47:46,38,56,25,16,39,1,20,6
+BB010,Central Blood Storage,Amman,31.982844,35.924448,732,08:00-20:00,False,2026-05-03 00:47:46,114,82,29,10,12,32,37,1
+BB011,Emergency Blood Reserve,Aqaba,29.528396,34.992146,1086,08:00-20:00,False,2026-05-03 00:47:46,113,114,29,14,1,29,24,3
+BB012,Jordan Red Crescent Blood Bank,Madaba,31.731653,35.804009,986,08:00-16:00,False,2026-05-03 00:47:46,87,31,24,27,15,38,15,35
+BB013,Medical City Blood Center,Jerash,32.271962,35.89524,632,08:00-20:00,False,2026-05-03 00:47:46,83,46,14,21,15,23,2,0
+BB014,Al-Zarqa Regional Blood Bank,Amman,31.980935,35.926048,382,08:00-16:00,False,2026-05-03 00:47:46,20,44,12,1,1,24,27,25
+BB015,Madaba Blood Storage,Zarqa,32.069597,36.106004,652,08:00-20:00,False,2026-05-03 00:47:46,118,61,32,17,13,8,29,2
