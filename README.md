@@ -29,7 +29,7 @@ This project was developed and submitted as an innovation entry for the prestigi
 3. **Supply Discrepancy**: Blood banks and hospitals frequently experience either acute shortages or wastage due to poor demand forecasting.
 
 ### The Hayat Solution:
-Hayat connects the entire blood donation ecosystem—Donors, Patients, Hospitals, and Blood Banks—into a single digital network powered by Machine Learning:
+Hayat connects the entire blood donation ecosystem Donors, Patients, Hospitals, and Blood Banks into a single digital network powered by Machine Learning:
 * **For Donors**: A premium Flutter mobile app offering a gamified reward store (redeemable coupons) and a smart pre-donation eligibility check.
 * **For Patients & Families**: Instant blood request creation with automated smart-matching that prioritizes donors most likely to show up.
 * **For Health Authorities (Ministry of Health)**: Time-series ML demand forecasting to predict blood supply requirements 7 days in advance.
